@@ -23,10 +23,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #000;
   min-width: 360px;
-  /* height: 1024px; */
   box-sizing: border-box;
   background-color: rgba(30, 144, 255, 0.5);
-  padding: 70px 15px 0;
+  padding: 70px 15px;
 }
 
 a {
@@ -82,13 +81,16 @@ a {
   border-radius: 5px;
 }
 
-.color1 {
+.item__link1 {
   color: #4443D0;
 }
 
-.color2 {
-  color: #fff;
+.color {
   background-color: #4443D0;
+}
+
+.item__link2 {
+  color: #fff;
 }
 
 .image {
@@ -151,6 +153,10 @@ a {
   }
 
   @media (min-width: 898px) {
+    body {
+      padding: 41px 122px 70px;
+    }
+
     .header {
       padding: 24px 48px 18px 64px;
     }
@@ -198,10 +204,6 @@ a {
   }
 
   @media (min-width: 1270px) {
-    body {
-      padding: 41px 122px 0;
-    }
-
     .header {
       flex-wrap: nowrap;
       justify-content: flex-start;
