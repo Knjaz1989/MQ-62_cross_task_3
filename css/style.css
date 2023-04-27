@@ -26,7 +26,7 @@ body {
   /* height: 1024px; */
   box-sizing: border-box;
   background-color: rgba(30, 144, 255, 0.5);
-  padding: 30px 15px 0;
+  padding: 70px 15px 0;
 }
 
 a {
@@ -91,11 +91,12 @@ a {
   background-color: #4443D0;
 }
 
+.image {
+  width: 100%;
+}
+
 .main {
-  position: relative;
-  z-index: 2;
   max-width: 603px;
-  padding-top: 277px;
 }
 
 .slogan {
@@ -114,15 +115,6 @@ a {
   max-width: 552px;
   font-size: 24px;
   line-height: 28.13px;
-}
-
-.image {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  top: 47px;
-  width: 985px;
-  height: 976px;
 }
 
 .form {
@@ -186,6 +178,22 @@ a {
 
     .nav-bar {
       padding: 11px  119px;
+    }
+
+    .image {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      top: 47px;
+      width: 985px;
+      height: 976px;
+    }
+
+    .main {
+      position: relative;
+      z-index: 2;
+      max-width: 603px;
+      padding-top: 277px;
     }
   }
 
