@@ -1,0 +1,45 @@
+body {
+  padding: 41px 122px 70px;
+}
+
+.header {
+  padding: 24px 48px 18px 64px;
+}
+
+.nav-bar__list {
+  justify-content: flex-end;
+}
+
+.auth {
+  width: auto;
+  justify-content: end;
+  gap: 28px;
+}
+
+.logo {
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(10, 37, 65, 1);
+}
+
+.nav-bar {
+  padding: 11px  119px;
+}
+
+.image {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 47px;
+  width: 985px;
+  height: 976px;
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  max-width: 603px;
+  padding-top: 277px;
+}

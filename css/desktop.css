@@ -1,0 +1,9 @@
+.header {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.nav-bar {
+  flex-grow: 1;
+  order: 0;
+}

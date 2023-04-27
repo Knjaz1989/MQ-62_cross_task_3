@@ -1,0 +1,14 @@
+body {
+  padding-top: 41px;
+}
+
+.nav-bar__list {
+  gap: 60px;
+}
+
+.nav-bar {
+  display: block;
+  padding: 11px 35px;
+  order: 1;
+  margin: 0 auto;
+}  
